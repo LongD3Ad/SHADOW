@@ -1,0 +1,5 @@
+streamlit
+sentence-transformers
+faiss-cpu  
+networkx
+pypdf 
