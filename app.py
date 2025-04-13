@@ -1,7 +1,10 @@
 # app.py
+import logging
 import streamlit as st
 from src.app.ui import create_ui
 from src.app.backend import process_query
+# In backend.py or app.py
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(name)s - %(message)s')
 
 def main():
     """Main entry point for the Project SHADOW application."""
